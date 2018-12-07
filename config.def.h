@@ -10,3 +10,18 @@ static const char *colorname[NUMCOLS] = {
 
 /* treat a cleared input like a wrong password (color) */
 static const int failonclear = 1;
+
+/* time in seconds before the monitor shuts down */
+static const int monitortime = 5;
+
+/* time to cancel lock with mouse movement in seconds */
+static const int timetocancel = 3;
+
+/* default message */
+static const char *message = "(uwu)zZZ";
+
+/* text color */
+static const char *textcolor = "#ffffff";
+
+/* text size */
+static const char *textsize = "6x10";
